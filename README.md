@@ -7,9 +7,9 @@
     - [**Design Architecture**](#design-architecture)
     - [**Signal Conditioning**](#signal-conditioning)
     - [**Integrated Display**](#integrated-display)
-    - [**Assembly**](#assembly)
     - [**Schematic diagram**](#schematic-diagram)
     - [**Module visualisation**](#module-visualisation)
+    - [**Assembly**](#assembly)
     - [**Production files**](#production-files)
   - [**Software**](#software)
   - [**Reporting bugs**](#reporting-bugs)
@@ -64,11 +64,6 @@ The Arduino UNO Inductance Measurement Shield is a dedicated peripheral board de
 
   An on-shield OLED displays measured inductance values in real time, eliminating external monitoring requirements.
 
-  ### **Assembly**
-  For Arduino UNO:
-  * JP1 jumper – short-circuit (with a drop of tin) the FREQ and ICP fields.
-  * JP2 jumper – leave in the Auto position (V<sub>cc</sub> from IOREF).
-
   ### **Schematic diagram**
   <p align="center"><img src="./docs/schematic.png" alt="wiring diagram" width="80%"/></p>
 
@@ -76,6 +71,13 @@ The Arduino UNO Inductance Measurement Shield is a dedicated peripheral board de
   ### **Module visualisation**
   (click on the image to see the 3D model)
   <p align="center"><a href="https://3dviewer.net/#model=https://github.com/michpro/Arduino_LMeter_shield/blob/master/docs/Arduino_LMeter_shield.wrl"><img src="./docs/Arduino_LMeter_shield.png" alt="Arduino UNO LMeter Shield" width="50%"/></a></p>
+
+  ### **Assembly**
+  For Arduino UNO:
+  * JP1 jumper – short-circuit (with a drop of tin) the FREQ and ICP fields.
+  * JP2 jumper – leave in the Auto position (V<sub>cc</sub> from IOREF).
+  
+  [Interactive BOM and parts placement](https://michpro.github.io/Arduino_LMeter_shield/ibom.html)
 
   ### **Production files**
   The production files can be found in the location: https://github.com/michpro/Arduino_LMeter_shield/blob/master/production/
